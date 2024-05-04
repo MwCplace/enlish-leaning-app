@@ -21,7 +21,7 @@
 .card {
   border: 1px solid red;
   min-width: 6rem;
-  width: 25%;
+  /* width: 15%; */
   height: 10rem;
   padding: 1rem;
   margin-left: 1rem;
@@ -36,4 +36,25 @@
 .card p {
   font-size: 2rem;
   color: pink;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.button-cnt {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-cnt button {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background: pink;
+  color: deeppink;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
 }
