@@ -1,0 +1,39 @@
+* {
+ padding: 0;
+ margin: 0; 
+}
+
+.main-cnt {
+  /* border: 1px solid black; */
+  height: 10rem;
+  width: auto;
+  padding: 2rem;
+}
+
+.card-cnt {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  border: 1px solid red;
+  min-width: 6rem;
+  width: 25%;
+  height: 10rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.card h2 {
+  font-size: 4rem;
+  color: deeppink;
+}
+
+.card p {
+  font-size: 2rem;
+  color: pink;
+}
